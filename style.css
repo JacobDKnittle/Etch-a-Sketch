@@ -14,7 +14,8 @@
 
 .square {
     border: 1px solid black;
-    flex-basis: 6.25%;   
+    flex-basis: calc(100% / 16);
+       
 }
 
 h1 {

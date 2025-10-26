@@ -20,7 +20,7 @@ sizeButton.addEventListener('click', () => {
     for (let i = 0; i < size * size; i++) {
     const square = document.createElement('div');
     square.classList.add('square');
-    square.style.flexBasis = 'calc(${size} / 100)';
+    square.style.flexBasis = `calc(100% / ${size})`
     square.addEventListener('mouseenter', () => {
         square.style.backgroundColor = 'gray';
     })
