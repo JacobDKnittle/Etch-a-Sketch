@@ -21,3 +21,8 @@ h1 {
     text-align: center;
     margin-top: 50px;
 }
+
+.sizeButton {
+    margin: 20px auto;
+    display: block;
+}
